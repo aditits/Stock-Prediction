@@ -1,0 +1,295 @@
+/*body*/
+body
+{
+    margin: 0;
+}
+
+/*Navigation Styles*/
+nav
+{
+    background-color: #2b2828;
+    color: #cbcbcb;
+    padding: 25px;
+}
+.address
+{
+    font-family: "Ubuntu Condensed", sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*Main Section Styles*/
+.main-section {
+    position: relative;
+    border: 0;
+    height: 870px;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.main-section > .main-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    filter: brightness(60%);
+}
+
+.main-section > .main-wrapper {
+    margin-top: 186px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.main-section > .main-wrapper > .main-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-heading {
+   
+    color:white;
+    font-family: 'Roboto Condensed', serif;
+    font-size: 4.5em;
+    letter-spacing: 14px;
+    margin-left: 20px;
+}
+
+.top-heading > h1
+{
+    margin-bottom: 0;
+}
+
+.bottom-heading {
+    color:white;
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Features section styles */
+.features-section 
+{
+    background-color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+.columns-wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.features-section > .columns-wrapper > .block
+{
+    width: 100%;
+    background-color: #cea123;
+    color: white;
+}
+
+.block > img
+{
+    width: 100%;
+}
+
+.block > .block-content
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block > .block-content :nth-child(1) 
+{
+    margin-left: -60px;
+}
+
+.heading
+{
+    margin-top: -140px;
+    font-size: 5.25em;
+    font-weight: 150px;
+}
+
+.block > .block-content :nth-child(2) 
+{
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    height: 50px;
+    margin-left: -60px;
+    margin-bottom: 60px;
+    transition: 1s;
+}
+
+.block > .block-content :nth-child(2):hover 
+{
+    letter-spacing: 1px;
+}
+
+.block > .block-content :nth-child(3)
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin-left: -60px;
+    text-align: center;
+}
+
+.btn , button
+{
+    margin-top: 55px;
+    border-radius: 4px;
+    background-color:white ;
+    border: none;
+    color: #cea123;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+    letter-spacing: 2px;
+    margin-left: -60px;
+    text-align: center;
+    padding: 14px 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn:active , button:active
+{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+.btn:hover , button:hover
+{
+    background-color: #cea123;
+    color: white;
+}
+
+
+* {box-sizing: border-box}
+
+/*Last section styles*/
+footer > .last-section 
+{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+footer > .last-section > .columns-wrapper {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > .last-section > .columns-wrapper > .column 
+{
+    width: 20%;
+    text-align: left;
+    transition: 1s;
+}
+
+footer > .last-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 2.5em;
+    color: #cea123;
+    font-weight: 150px;
+    transition: 1s;
+}
+
+footer > .last-section > .columns-wrapper > .column :nth-child(1):hover {
+    letter-spacing: 1px;
+}
+
+footer > .last-section > .columns-wrapper > .column :nth-child(2) {
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+form input {
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    width: 100%;
+    display: block;
+    transition: all 0.3s;
+}
+form input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #cea135;
+}
+
+/*Footer Styles*/
+.footer 
+{
+    background-color:black;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    margin-top: -55px;
+}
+
+.footer > .social-media-icons-wrapper 
+{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > .social-media-icons-wrapper a 
+{
+    font-size: 1.5em;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover 
+{
+    color: #cea135;
+}
+
+.footer > .copyright-wrapper 
+{
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color:#cbcbcb;
+}
+
+.book
+{
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+  @keyframes mymove
+   {
+    0%   {top: 0px; right: 0px; background:black; width: 25%;}
+    100% {top: 570px; right: 0px; background:#cea123; width: 40%;}
+  }
